@@ -1,3 +1,24 @@
+
+// ( function( $ ) {
+
+//     // Setup variables
+//     $window = $(window);
+//     $slide = $('.homeSlide');
+//     $body = $('body');
+
+//     //FadeIn all sections
+//     $body.imagesLoaded( function() {
+//         setTimeout(function() {
+
+//               // Resize sections
+//               adjustWindow();
+
+//               // Fade in sections
+//               $body.removeClass('loading').addClass('loaded');
+
+//         }, 800);
+//     }) });
+
 $(document).ready(function(){
   resizeLanding();
       ( function( $ ) {
@@ -11,7 +32,7 @@ $(document).ready(function(){
     } )( jQuery );
 });
 
-// Resize slideshow images on page ReLoad
+//Resize slideshow images on page ReLoad
 function resizeLanding() {
   $(window).resize(function(){
     $("section").height($(window).height())
@@ -22,16 +43,14 @@ function resizeLanding() {
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
-        $("span#logo").removeClass("large");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $("span#logo").addClass("large");
     }
 });
 
 
 
-// jQuery for page scrolling feature
+//jQuery for page scrolling feature
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
