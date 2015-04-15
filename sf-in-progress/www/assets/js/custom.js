@@ -1,38 +1,25 @@
 
-// ( function( $ ) {
-
-//     // Setup variables
-//     $window = $(window);
-//     $slide = $('.homeSlide');
-//     $body = $('body');
-
-//     //FadeIn all sections
-//     $body.imagesLoaded( function() {
-//         setTimeout(function() {
-
-//               // Resize sections
-//               adjustWindow();
-
-//               // Fade in sections
-//               $body.removeClass('loading').addClass('loaded');
-
-//         }, 800);
-//     }) });
 
 $(document).ready(function(){
   resizeLanding();
-      ( function( $ ) {
+
         // Init Skrollr
         var s = skrollr.init({
             render: function(data) {
                 //Debugging - Log the current scroll position.
-                //console.log(data.curTop);
+                console.log(data.curTop);
             }
         });
-    } )( jQuery );
+
+        s.refresh($('.homeSlide'));
+
 });
 
-//Resize slideshow images on page ReLoad
+
+
+
+
+//Resize slideshow images on page ReLoad / reload
 function resizeLanding() {
   $(window).resize(function(){
     $("section").height($(window).height())

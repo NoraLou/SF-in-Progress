@@ -14,7 +14,7 @@ section{
 }
 
 a {
-    color: #42dca3;
+    color:white;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -23,7 +23,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+   /* color: #1d9b6c;*/
 }
 
 
@@ -160,10 +160,7 @@ textarea {
 
 
 /******************************************************************PARRALLAX-STORY*/
-h2{
-    margin-top:300px;
-    color:red;
-}
+
 
 
 section {
@@ -186,6 +183,17 @@ main {
     /*max-width: 100%;
     height:auto;*/
 }
+.slide-overlay{
+    /*fall-back old browser*/
+    /*background-color:black*/
+    background-color:rgba(0, 0, 0, 0.84);
+    height: 95%;
+    width:100%;
+    display:block;
+    text-align: center;
+
+}
+
 .hsContainer {
     width: 100%;
     height: 100%;
@@ -193,11 +201,56 @@ main {
     position: relative;
 }
 
+#project-title{
+   /* width:0%;*/
+    position:absolute;
+   /* left:10%;*/
+    top:15%;
+    right:10%;
+    /*width:80%;*/
+    text-align: left;
+    color:white;
+}
+    #project-title h1 {
+         /*color: white;*/
+         font-size: 120px;
+         font-size: 15vw;
+         font-family: Open Sans;
+         font-weight: 900;
+         /*max-width: 1100px;*/
+
+    }
+
+
+
+    #project-title span{
+        /*letter-spacing: 20px;*/
+        /*font-size: 120px;
+         font-family: Open Sans;
+         font-weight: 900;
+        text-align: center;*/
+       /* margin-left: 100px;*/
+
+    }
+
+    .title-scroll {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 80px;
+    }
+
+/*    #project-title a:hover {
+        background-color: transparent;
+    }*/
+
+
 .hsContent {
-    max-width: 700px;
+    width: 70%;
+    /*max-width: 700px;*/
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 15%%;
+    top: 60%;
+    text-align: center;
 }
     .hsContent h2  {
         color: #fff8de;
@@ -208,54 +261,50 @@ main {
         margin-bottom: 12px;
     }
     .hsContent p {
-        width: 400px;
-        color: #b2b2b2;
+        /*width: 400px;
+        color: #b2b2b2;*/
     }
     .hsContent a {
-        color: #b2b2b2;
-        text-decoration: underline;
+        /*color: #b2b2b2;
+        text-decoration: underline;*/
     }
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
-#slide-1 .hsContent {
-    bottom: 200px;
-    top: auto;
+#slide-1 .bcg {background-image:url('../img/downtown-07.jpg')}
+#slide-1 .hsContent{
+
 }
 
 /* Slide 2 */
 #slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
-#slide-2 .hsContent {
-    margin-left: -450px;
-    bottom: 200px;
-    top: auto;
+#slide-2 .hsContent{
+
 }
+
+
 
 /* Slide 3 */
 #slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
 #slide-3 .hsContent {
-    margin-left: -239px;
+
 }
     #slide-3 h2 {
-        color: #f2ead6;
-        background-color: rgba(0,0,0,0.6);
+
+
     }
 
 /* Slide 4 */
 #slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
 #slide-4 .hsContent {
-    margin-left: -450px;
+
+
 }
     #slide-4 h2 {
-        background: none;
-        padding-left: 0;
-        padding-right: 0;
+
     }
 
 
 @media(min-width:768px) {
-
-
 
 
 
