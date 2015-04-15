@@ -297,18 +297,15 @@ main {
 section#slide-2.homeSlide[style]{
     height:250px !important;
     background-color:#03103e;
-    -webkit-transition: opacity 500ms ease-out;
-    -moz-transition: opacity 500ms ease-out;
-    transition: opacity 500ms ease-out;
+
 }
 
 #slide-2 .hsContent{
     width: 80%;
     right:10%;
     left:10%;
-    top:20%;
+    top:10%;
     bottom:0%;
-    line-height:20% !important;
     letter-spacing: 2px;
 }
 
@@ -326,9 +323,23 @@ section#slide-2.homeSlide[style]{
 
 
 /* Slide 3 */
+section#slide-2.homeSlide[style]{
+
+    -webkit-transition: opacity 600ms ease-out;
+    -moz-transition: opacity 600ms ease-out;
+    transition: opacity 200ms ease-in !important;
+
+}
+
+
+
+
+
+
+
 #slide-3 .bcg {background-image:url('../img/downtown-07-blue-3.jpg')}
 #slide-3 .hsContent {
-    background-color:rgba(255, 255, 255, 0.8);
+    background-color:rgba(255, 255, 255, 1);
     top: 15%;
     height:70%;
     bottom:15%;
@@ -342,6 +353,7 @@ section#slide-2.homeSlide[style]{
     margin-left:auto;
     padding-left: 2%;
     margin-top: 8%;
+    margin-bottom: 2%;
  /*   margin-bottom: 5%;*/
 }
 
@@ -368,7 +380,7 @@ section#slide-4.homeSlide[style]{
 /* Slide 5 */
 #slide-5 .bcg {background-image:url('../img/downtown-07.jpg')}
 #slide-5 .hsContent {
-    background-color:rgba(255, 255, 255, 0.8);
+    background-color:rgba(255, 255, 255, 0.95);
     top:;
 
 }
