@@ -295,26 +295,66 @@ main {
 
 /*Slide 2*/
 section#slide-2.homeSlide[style]{
-    height:300px !important;
+    height:250px !important;
     background-color:#03103e;
+    -webkit-transition: opacity 500ms ease-out;
+    -moz-transition: opacity 500ms ease-out;
+    transition: opacity 500ms ease-out;
 }
 
 #slide-2 .hsContent{
-    font-family: Raleway;
+    width: 80%;
+    right:10%;
+    left:10%;
+    top:20%;
+    bottom:0%;
+    line-height:20% !important;
+    letter-spacing: 2px;
+}
+
+#slide-2 .hsContent h2{
+    /*font-family: Raleway;*/
+    font-size:44px;
+    font-weight: 500;
 
 }
+
+
+
+
+
+
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/downtown-07.jpg')}
+#slide-3 .bcg {background-image:url('../img/downtown-07-blue-3.jpg')}
 #slide-3 .hsContent {
     background-color:rgba(255, 255, 255, 0.8);
-    top:;
-
+    top: 15%;
+    height:70%;
+    bottom:15%;
 }
-    #slide-3 h2 {
+
+ .contentContainer{
+    display:block;
+    text-align: center;
+    margin-right:auto;
+    padding-right: 2%;
+    margin-left:auto;
+    padding-left: 2%;
+    margin-top: 8%;
+ /*   margin-bottom: 5%;*/
+}
+
+
+    #slide-3 .contentContainer h2 {
         color:midnightblue;
         font-size: 30px;
+        font-weight: 500;
     }
+
+.spacing{
+    height:8%;
+}
 
 /* Slide 4 */
 section#slide-4.homeSlide[style]{
