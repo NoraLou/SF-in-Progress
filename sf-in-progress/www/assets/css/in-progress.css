@@ -9,10 +9,10 @@ body, html  {
 }
 
 
-section{
+/*section{
     width:100%;
 }
-
+*/
 a {
     color:white;
     -webkit-transition: all .2s ease-in-out;
@@ -310,31 +310,26 @@ section#slide-2.homeSlide[style]{
 }
 
 #slide-2 .hsContent h2{
-    /*font-family: Raleway;*/
-    font-size:44px;
-    font-weight: 500;
+    font-family: Raleway;
+    font-size:30px;
+   /* font-size: 2vw;*/
+  /*  font-weight: 500;*/
+   /* text-transform: uppercase;*/
 
 }
-
-
-
-
-
-
 
 /* Slide 3 */
 section#slide-2.homeSlide[style]{
 
-    -webkit-transition: opacity 600ms ease-out;
-    -moz-transition: opacity 600ms ease-out;
+    -webkit-transition: opacity 200ms ease-in!important;
+    -moz-transition: opacity 200ms ease-in!important;
     transition: opacity 200ms ease-in !important;
 
+    -webkit-transition: opacity 600ms ease-out!important;
+    -moz-transition: opacity 600ms ease-out!important;
+    transition: opacity 600ms ease-out !important;
+
 }
-
-
-
-
-
 
 
 #slide-3 .bcg {background-image:url('../img/downtown-07-blue-3.jpg')}
@@ -354,34 +349,61 @@ section#slide-2.homeSlide[style]{
     padding-left: 2%;
     margin-top: 8%;
     margin-bottom: 2%;
- /*   margin-bottom: 5%;*/
+    font-size: 30px;
+    font-weight: 500;
+
 }
 
-
-    #slide-3 .contentContainer h2 {
-        color:midnightblue;
-        font-size: 30px;
-        font-weight: 500;
-    }
+#slide-3 .contentContainer h2{
+    color:midnightblue;
+}
 
 .spacing{
     height:8%;
 }
 
+
+
 /* Slide 4 */
 section#slide-4.homeSlide[style]{
     height:300px !important;
     background-color:#03103e;
+    color:white;
 }
     #slide-4 .hsContent {
-
+        width: 80%;
+        right:10%;
+        left:10%;
+        top:10%;
+        bottom:0%;
+        letter-spacing: 2px;
     }
 
+
+#slide-4 .hsContent{
+    width: 80%;
+    right:10%;
+    left:10%;
+    top:10%;
+    bottom:0%;
+    letter-spacing: 2px;
+}
+
+#slide-4 .hsContent h2{
+    font-family: Raleway;
+    font-size:30px;
+    color:white !important;
+
+
+}
+
 /* Slide 5 */
-#slide-5 .bcg {background-image:url('../img/downtown-07.jpg')}
+#slide-5 .bcg {background-image:url('../img/active-downtown-blue.jpg')}
 #slide-5 .hsContent {
-    background-color:rgba(255, 255, 255, 0.95);
-    top:;
+    background-color:rgba(255, 255, 255, 1);
+    top: 15%;
+    height:70%;
+    bottom:15%;
 
 }
     #slide-5 h2 {
