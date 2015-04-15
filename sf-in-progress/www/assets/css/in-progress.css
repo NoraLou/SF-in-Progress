@@ -60,7 +60,7 @@ textarea {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #03103e;
     color:#fff;
 }
 
@@ -153,7 +153,7 @@ textarea {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: black;
+        background: #03103e;
     }
 }
 
@@ -164,7 +164,6 @@ textarea {
 
 
 section {
-    /*min-width: 960px;*/
     -webkit-transition: opacity 300ms ease-out;
     -moz-transition: opacity 300ms ease-out;
     transition: opacity 300ms ease-out;
@@ -180,14 +179,20 @@ main {
     background-size: cover;
     height: 100%;
     width: 100%;
-    /*max-width: 100%;
-    height:auto;*/
+
+
 }
 .slide-overlay{
+
+    background:linear-gradient(0deg, rgba(68,116,169, .3), rgb(3,33,96) 100%) no-repeat;
     /*fall-back old browser*/
     /*background-color:black*/
-    background-color:rgba(0, 0, 0, 0.84);
-    height: 95%;
+    /*background-image:url("../img/landing.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+    height: 100%;
     width:100%;
     display:block;
     text-align: center;
@@ -200,16 +205,19 @@ main {
     overflow: hidden;
     position: relative;
 }
-
+/*TAKE OUT***************************************************************************/
 #project-title{
    /* width:0%;*/
     position:absolute;
    /* left:10%;*/
-    top:15%;
+    /*top:15%;*/
+    top:10%;
+
     right:10%;
     /*width:80%;*/
-    text-align: left;
-    color:white;
+    text-align: center;
+    /*color:white;*/
+
 }
     #project-title h1 {
          /*color: white;*/
@@ -218,8 +226,11 @@ main {
          font-family: Open Sans;
          font-weight: 900;
          /*max-width: 1100px;*/
+         color: rgba(255, 255, 255, 0.5);
 
     }
+
+    #project-title h1
 
 
 
@@ -243,26 +254,32 @@ main {
         background-color: transparent;
     }*/
 
+/*TAKE OUT***************************************************************************/
 
 .hsContent {
     width: 70%;
     /*max-width: 700px;*/
     position: absolute;
     left: 15%%;
-    top: 60%;
+    right:15%;
+    top: 40%;
     text-align: center;
+    color:white;
+    font-family: Raleway;
 }
-    .hsContent h2  {
-        color: #fff8de;
-        background-color: rgba(0,0,0,0.5);
-        padding: 10px 5px;
-        font-size: 35px;
-        line-height: 38px;
-        margin-bottom: 12px;
+    .hsContent h1 {
+        font-size:120px;
+        line-height:120px;
+        font-family: Open Sans Condensed;
+        font-weight: 300;
+        letter-spacing: 5px;
+
     }
     .hsContent p {
-        /*width: 400px;
-        color: #b2b2b2;*/
+        font-family: Raleway;
+        font-size: 42px;
+        letter-spacing: 5px;
+        color:white;
     }
     .hsContent a {
         /*color: #b2b2b2;
@@ -270,38 +287,56 @@ main {
     }
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/downtown-07.jpg')}
+#slide-1 .bcg {background-image:url('../img/twin-peaks-05.jpg')}
 #slide-1 .hsContent{
 
 }
 
-/* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
+
+/*Slide 2*/
+section#slide-2.homeSlide[style]{
+    height:300px !important;
+    background-color:#03103e;
+}
+
 #slide-2 .hsContent{
+    font-family: Raleway;
 
 }
 
-
-
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
+#slide-3 .bcg {background-image:url('../img/downtown-07.jpg')}
 #slide-3 .hsContent {
+    background-color:rgba(255, 255, 255, 0.8);
+    top:;
 
 }
     #slide-3 h2 {
-
-
+        color:midnightblue;
+        font-size: 30px;
     }
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
-#slide-4 .hsContent {
-
-
+section#slide-4.homeSlide[style]{
+    height:300px !important;
+    background-color:#03103e;
 }
-    #slide-4 h2 {
+    #slide-4 .hsContent {
 
     }
+
+/* Slide 5 */
+#slide-5 .bcg {background-image:url('../img/downtown-07.jpg')}
+#slide-5 .hsContent {
+    background-color:rgba(255, 255, 255, 0.8);
+    top:;
+
+}
+    #slide-5 h2 {
+        color:midnightblue;
+        font-size: 30px;
+    }
+
 
 
 @media(min-width:768px) {
