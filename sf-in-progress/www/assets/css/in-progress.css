@@ -413,152 +413,25 @@ section#slide-4.homeSlide[style]{
 
 
 
-@media(min-width:768px) {
+/* Slide 6 */
+
+
+#slide-6 .bcg {background-image:url('../img/downtown-05.jpg')}
 
 
 
-
-
-}
-
-
-
-/***************************************************************************Projects*/
-.projects-wrapper{
-    margin:3% auto;
-    max-width: 1000px;
-
-}
-
-.row{
-    margin:2%;
-    padding:1%;
-    background-color: #dfdfdf
-}
-
-
-
-div.row.take3{
-    /*background-color:rgb(223,225,227);*/
-    background-color: white;
-    padding:0;
-
-
-}
-
-div.col-md-4.house2{
-    /*padding-left: 0;*/
-
-}
-
-
-.img-container{
-    position:relative;
-    margin:auto;
-    max-width:400px;
-    text-align: center;
-    box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
-
-}
-
-.img-container>img{
-    max-width: 100%;
-
-}
-
-.img-container>h4{
-    postion:absolute;
-    background-color:black;
-    padding:15px 0;
-    color:white;
-    letter-spacing: 3px;
-}
-
-div.row.collumn-wrapper{
-    margin:0;
-    padding:0;
-    height:250px;
-    background-color:#dfdfdf;
-    /*box-shadow: 0px 0px 4px rgba(0,0,0,0.7);*/
-}
-
-div.col-sm-6.first{
-    background-color: transparent;
-    height:240px;
-
-}
-
-div.col-sm-6.second{
-    background-color: transparent;
-    height:240px;
-    text-align: center;
-
-
-}
-
-div.col-sm-6.second>img{
-    display: inline-block;
-    max-width: 100%;
-    margin: 2% auto 2% auto;
-}
-
-div.col-sm-6.first{
-    text-align: center;
-    padding:0;
-}
-
-div.col-sm-6.first>h4{
-    background-color: dimgrey;
-    padding:15px;
-    color:white;
-    letter-spacing: 1px;
-
-}
-
-div.col-sm-6.first>p{
-    margin: 15px;
-    text-align: left;
-    color:black;
-
-}
-
-
-@media(max-width:768px){
-
-     div.col-md-4.housing{
-        text-align:center;
-    }
-
-     div.col-md-4.housing img{
-        margin:auto;
-        max-width: 120%;
-    }
-
-}
-
-
-@media(max-width:990px){
-
-    div.col-md-4.housing{
-        text-align:center;
-    }
-
-     div.col-md-4.housing img{
-        margin: 20px auto 10px;
-    }
+#slide-6 .hsContent h2{
+    color:midnightblue;
+    font-size: 100px;
+    font-weight:700;
+    postion:fixed;
 
 
 
 }
 
 
-/***************************************************************ABOUT*/
 
-div#about{
-    background-color: grey;
-    height:400px;
-
-}
 
 
 
